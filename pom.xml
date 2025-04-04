@@ -8,10 +8,21 @@
     <artifactId>EssaiSpoon</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+
+ <dependencies>
+     <!-- https://mvnrepository.com/artifact/fr.inria.gforge.spoon/spoon-core -->
+     <dependency>
+         <groupId>fr.inria.gforge.spoon</groupId>
+         <artifactId>spoon-core</artifactId>
+         <version>11.2.0</version>
+     </dependency>
+ </dependencies>
+
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
 </project>
