@@ -17,16 +17,7 @@
          <artifactId>spoon-core</artifactId>
          <version>11.2.0</version>
      </dependency>
-     <dependency>
-         <groupId>org.openjfx</groupId>
-         <artifactId>javafx-controls</artifactId>
-         <version>23.0.1</version>
-     </dependency>
-     <dependency>
-         <groupId>org.openjfx</groupId>
-         <artifactId>javafx-fxml</artifactId>
-         <version>23.0.1</version>
-     </dependency> </dependencies>
+</dependencies>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -34,18 +25,4 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
-                <configuration>
-                    <source>21</source>
-                    <target>21</target>
-                    <release>21</release>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>
